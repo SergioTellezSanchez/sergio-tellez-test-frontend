@@ -3,7 +3,7 @@ import { Car } from "./Car";
 import * as CarService from "./CarService";
 import CarsForm from "./CarsForm";
 import { toast } from "react-toastify";
-import { dateFormatter } from "../Utils/Formatter";
+import { dateFormatter } from "../../Utils/Formatter";
 
 const CarsList = () => {
   const [carList, setCarList] = useState<Car[]>([]);
